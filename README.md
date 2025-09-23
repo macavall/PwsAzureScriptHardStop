@@ -16,6 +16,8 @@ Set-AzContext -SubscriptionId $subId -TenantId $TenId
 
 $accessToken = (Get-AzAccessToken -TenantId $TenId).Token
 
+$plainTextToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($accessToken))
+
 $resourceGroupName = ""
 $functionAppName = ""
 $apiVersion = "2024-04-01"
@@ -39,6 +41,24 @@ $stopBody = @{
     }
 } | ConvertTo-Json -Depth 3
 
-Invoke-RestMethod -Uri $managementUrl -Method PATCH -Body $stopBody -ContentType "application/json" -Headers @{ Authorization = "Bearer $accessToken" }
+Write-Host Start-Request
+Write-Host ([DateTime]::UtcNow)
+Invoke-RestMethod -Uri $managementUrl -Method PATCH -Body $stopBody -ContentType "application/json" -Headers @{ Authorization = "Bearer $plainTextToken" }
+Write-Host Complete-Request
+Write-Host ([DateTime]::UtcNow)
 
-```
+sleep -Seconds 30
+
+# Stop the Function App (State = "Stopped")
+$stopBody = @{
+    properties = @{
+        state = "Running"
+        scmSiteAlsoStopped = "False"
+    }
+} | ConvertTo-Json -Depth 3
+
+Write-Host Start-Request
+Write-Host ([DateTime]::UtcNow)
+Invoke-RestMethod -Uri $managementUrl -Method PATCH -Body $stopBody -ContentType "application/json" -Headers @{ Authorization = "Bearer $plainTextToken" }
+Write-Host Complete-Request
+Write-Host ([DateTime]::UtcNow)
