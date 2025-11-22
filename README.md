@@ -16,7 +16,7 @@ Set-AzContext -SubscriptionId $subId -TenantId $TenId
 
 $accessToken = (Get-AzAccessToken -TenantId $TenId).Token
 
-$plainTextToken = [System.Runtime.InteropServices.Marshal]::PtrToStringAuto([System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($accessToken))
+$plainTextToken = $accessToken | ConvertFrom-SecureString -AsPlainText
 
 $resourceGroupName = ""
 $functionAppName = ""
