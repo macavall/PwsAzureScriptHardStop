@@ -47,7 +47,7 @@ Invoke-RestMethod -Uri $managementUrl -Method PATCH -Body $stopBody -ContentType
 Write-Host Complete-Request
 Write-Host ([DateTime]::UtcNow)
 
-sleep -Seconds 30
+sleep 30
 
 # Stop the Function App (State = "Stopped")
 $stopBody = @{
