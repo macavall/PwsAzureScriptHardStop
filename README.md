@@ -63,3 +63,4 @@ Write-Host ([DateTime]::UtcNow)
 Invoke-RestMethod -Uri $managementUrl -Method PATCH -Body $stopBody -ContentType "application/json" -Headers @{ Authorization = "Bearer $plainTextToken" }
 Write-Host Complete-Request
 Write-Host ([DateTime]::UtcNow)
+Write-Host DONE!!!
