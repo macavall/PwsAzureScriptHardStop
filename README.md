@@ -3,6 +3,7 @@
 1. Open the Azure Portal and open the Azure Cloud Shell
 <img width="1917" height="241" alt="image" src="https://github.com/user-attachments/assets/99faebc6-b72a-4044-a329-c5f49e4c3485" />
 
+<br />
 
 2. **Copy and Paste** the command below
 
@@ -11,6 +12,8 @@ iwr "https://raw.githubusercontent.com/macavall/PwsAzureScriptHardStop/refs/head
 ```
 
 <img width="1900" height="319" alt="image" src="https://github.com/user-attachments/assets/0be91709-146d-433a-9d14-e7bd398b4458" />
+
+<br />
 
 3. Provide the **SubscriptionID, TenantID, ResourceGroupName, and FunctionName** as shown below
 <img width="1915" height="301" alt="image" src="https://github.com/user-attachments/assets/abd06c26-4bbf-4698-8e20-92d29c5a72a0" />
