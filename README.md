@@ -4,7 +4,7 @@
 <img width="1917" height="241" alt="image" src="https://github.com/user-attachments/assets/99faebc6-b72a-4044-a329-c5f49e4c3485" />
 
 
-3. **Copy and Paste** the command below
+2. **Copy and Paste** the command below
 ```plain
 iwr "https://raw.githubusercontent.com/macavall/PwsAzureScriptHardStop/refs/heads/master/AzureScriptHardRestart2.ps1"  -OutFile AzureScriptHardRestart2.ps1 && . ./AzureScriptHardRestart2.ps1
 ```
