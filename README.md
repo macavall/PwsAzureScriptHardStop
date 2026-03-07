@@ -14,7 +14,7 @@ iwr "https://raw.githubusercontent.com/macavall/PwsAzureScriptHardStop/refs/head
 
 <img width="1900" height="319" alt="image" src="https://github.com/user-attachments/assets/0be91709-146d-433a-9d14-e7bd398b4458" />
 
-<br />
+<br /><br />
 
 3. Provide the **SubscriptionID, TenantID, ResourceGroupName, and FunctionName** as shown below
 
