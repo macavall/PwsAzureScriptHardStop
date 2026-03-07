@@ -1,6 +1,6 @@
 # Azure PowerShell Script - Hard Stop of Azure App Services (PaaS) (*includes Function Apps*)
 
-The method below uses the script as a module for easier use
+## The method below uses the script as a module for easier use
 
 1. Open the Azure Portal and open the Azure Cloud Shell
 
