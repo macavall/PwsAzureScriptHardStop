@@ -12,7 +12,7 @@
 iwr "https://raw.githubusercontent.com/macavall/PwsAzureScriptHardStop/refs/heads/master/AzureScriptHardRestart2.ps1"  -OutFile AzureScriptHardRestart2.ps1
 ```
 
-<img width="1900" height="319" alt="image" src="https://github.com/user-attachments/assets/0be91709-146d-433a-9d14-e7bd398b4458" />
+<img width="1906" height="288" alt="image" src="https://github.com/user-attachments/assets/f7f8b90d-173a-4cf8-8b21-45f8ad872735" />
 
 <br /><br />
 
