@@ -30,10 +30,6 @@ Utilize this script to ensure the Kudu site and the Main site are completely shu
 
 <br />
 
-https://github.com/user-attachments/assets/665af668-a261-4bc7-a46a-8bfb337e25fe
-
-<br />
-
 ## PowerShell Script
 
 ```PowerShell
