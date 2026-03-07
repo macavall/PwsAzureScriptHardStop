@@ -7,6 +7,9 @@
 iwr "https://raw.githubusercontent.com/macavall/PwsAzureScriptHardStop/refs/heads/master/AzureScriptHardRestart2.ps1"  -OutFile AzureScriptHardRestart2.ps1 && . ./AzureScriptHardRestart2.ps1
 ```
 
+3. Provide the **SubscriptionID, TenantID, ResourceGroupName, and FunctionName** as shown below
+
+
 <img width="1900" height="319" alt="image" src="https://github.com/user-attachments/assets/0be91709-146d-433a-9d14-e7bd398b4458" />
 
 
