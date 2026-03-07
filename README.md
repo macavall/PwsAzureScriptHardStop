@@ -1,6 +1,7 @@
 # Azure PowerShell Script - Hard Stop of Azure App Services (PaaS) (*includes Function Apps*)
 
 1. Open the Azure Portal and open the Azure Cloud Shell
+
 <img width="1917" height="241" alt="image" src="https://github.com/user-attachments/assets/99faebc6-b72a-4044-a329-c5f49e4c3485" />
 
 <br />
@@ -16,6 +17,7 @@ iwr "https://raw.githubusercontent.com/macavall/PwsAzureScriptHardStop/refs/head
 <br />
 
 3. Provide the **SubscriptionID, TenantID, ResourceGroupName, and FunctionName** as shown below
+
 <img width="1915" height="301" alt="image" src="https://github.com/user-attachments/assets/abd06c26-4bbf-4698-8e20-92d29c5a72a0" />
 
 ---
