@@ -1,7 +1,8 @@
 # Azure PowerShell Script - Hard Stop of Azure App Services (PaaS) (*includes Function Apps*)
 
-<br />
+1. Open the Azure Portal and open the Azure Cloud Shell
 
+2. **Copy and Paste** the command below
 ```plain
 iwr "https://raw.githubusercontent.com/macavall/PwsAzureScriptHardStop/refs/heads/master/AzureScriptHardRestart2.ps1"  -OutFile AzureScriptHardRestart2.ps1 && . ./AzureScriptHardRestart2.ps1
 ```
