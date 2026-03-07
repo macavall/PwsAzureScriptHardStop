@@ -7,6 +7,9 @@
 iwr "https://raw.githubusercontent.com/macavall/PwsAzureScriptHardStop/refs/heads/master/AzureScriptHardRestart2.ps1"  -OutFile AzureScriptHardRestart2.ps1 && . ./AzureScriptHardRestart2.ps1
 ```
 
+<img width="1900" height="319" alt="image" src="https://github.com/user-attachments/assets/0be91709-146d-433a-9d14-e7bd398b4458" />
+
+
 Utilize this script to ensure the Kudu site and the Main site are completely shutdown.  When restarting, which can be done from the Azure Portal, the Kudu process will start a new process and build the environment from scratch in the same way a new worker added to the App Service Plan would be initialized.
 
 <br />
