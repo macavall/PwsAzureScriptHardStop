@@ -20,7 +20,11 @@ iwr "https://raw.githubusercontent.com/macavall/PwsAzureScriptHardStop/refs/head
 
 <img width="1915" height="301" alt="image" src="https://github.com/user-attachments/assets/abd06c26-4bbf-4698-8e20-92d29c5a72a0" />
 
+<br /><br />
+
 ---
+
+<br /><br />
 
 Utilize this script to ensure the Kudu site and the Main site are completely shutdown.  When restarting, which can be done from the Azure Portal, the Kudu process will start a new process and build the environment from scratch in the same way a new worker added to the App Service Plan would be initialized.
 
